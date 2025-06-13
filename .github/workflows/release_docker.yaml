@@ -110,5 +110,5 @@ jobs:
             org.opencontainers.image.licenses=Apache-2.0
       - name: Inspect image
         run: |
-          docker pull ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}:${{ steps.metadata.outputs.tags }}
-          docker image inspect ${{ env.DOCKER_IMAGE }}:${{ steps.metadata.outputs.tags }}
+          docker pull ${{ steps.metadata.outputs.tags }}
+          docker image inspect ${{ env.DOCKER_IMAGE }}
