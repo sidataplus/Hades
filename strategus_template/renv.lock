@@ -4,11 +4,15 @@
     "Repositories": [
       {
         "Name": "CRAN",
-        "URL": "https://cloud.r-project.org"
+        "URL": "https://packagemanager.posit.co/cran/__linux__/focal/latest"
       },
       {
         "Name": "P3M",
-        "URL": "https://packagemanager.posit.co/cran/latest"
+        "URL": "https://packagemanager.posit.co/cran/__linux__/focal/latest"
+      },
+      {
+        "Name": "CLOUD",
+        "URL": "https://cloud.r-project.org"
       }
     ]
   },
@@ -22,13 +26,13 @@
       "Package": "Andromeda",
       "Version": "0.6.7",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "BH": {
       "Package": "BH",
       "Version": "1.84.0-0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "BeastJar": {
       "Package": "BeastJar",
@@ -39,13 +43,13 @@
       "Package": "Characterization",
       "Version": "2.1.3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "CirceR": {
       "Package": "CirceR",
       "Version": "1.3.3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "CohortDiagnostics": {
       "Package": "CohortDiagnostics",
@@ -62,7 +66,7 @@
       "Package": "CohortGenerator",
       "Version": "0.11.2",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "CohortIncidence": {
       "Package": "CohortIncidence",
@@ -95,13 +99,13 @@
       "Package": "Cyclops",
       "Version": "3.5.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "DBI": {
       "Package": "DBI",
       "Version": "1.2.3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "DT": {
       "Package": "DT",
@@ -112,7 +116,7 @@
       "Package": "DatabaseConnector",
       "Version": "6.4.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "Deriv": {
       "Package": "Deriv",
@@ -123,19 +127,19 @@
       "Package": "EmpiricalCalibration",
       "Version": "3.1.4",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "EvidenceSynthesis": {
       "Package": "EvidenceSynthesis",
       "Version": "0.5.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "FeatureExtraction": {
       "Package": "FeatureExtraction",
       "Version": "3.7.2",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "Formula": {
       "Package": "Formula",
@@ -204,31 +208,31 @@
       "Package": "ParallelLogger",
       "Version": "3.3.1",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "PatientLevelPrediction": {
       "Package": "PatientLevelPrediction",
       "Version": "6.4.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "R6": {
       "Package": "R6",
       "Version": "2.5.1",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "RColorBrewer": {
       "Package": "RColorBrewer",
       "Version": "1.1-3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "RJSONIO": {
       "Package": "RJSONIO",
       "Version": "1.3-1.9",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "ROhdsiWebApi": {
       "Package": "ROhdsiWebApi",
@@ -245,19 +249,19 @@
       "Package": "RSQLite",
       "Version": "2.3.7",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "Rcpp": {
       "Package": "Rcpp",
       "Version": "1.0.13",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "RcppEigen": {
       "Package": "RcppEigen",
       "Version": "0.3.4.0.2",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "RcppParallel": {
       "Package": "RcppParallel",
@@ -284,7 +288,7 @@
       "Package": "ResultModelManager",
       "Version": "0.5.11",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "SelfControlledCaseSeries": {
       "Package": "SelfControlledCaseSeries",
@@ -317,7 +321,7 @@
       "Package": "SqlRender",
       "Version": "1.19.1",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "Strategus": {
       "Package": "Strategus",
@@ -334,7 +338,7 @@
       "Package": "TreatmentPatterns",
       "Version": "3.0.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "abind": {
       "Package": "abind",
@@ -345,55 +349,55 @@
       "Package": "askpass",
       "Version": "1.2.1",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "assertthat": {
       "Package": "assertthat",
       "Version": "0.2.1",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "aws.s3": {
       "Package": "aws.s3",
       "Version": "0.3.21",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "aws.signature": {
       "Package": "aws.signature",
       "Version": "0.6.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "backports": {
       "Package": "backports",
       "Version": "1.5.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "base64enc": {
       "Package": "base64enc",
       "Version": "0.1-3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "bit": {
       "Package": "bit",
       "Version": "4.5.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "bit64": {
       "Package": "bit64",
       "Version": "4.5.2",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "blob": {
       "Package": "blob",
       "Version": "1.2.4",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "boot": {
       "Package": "boot",
@@ -414,7 +418,7 @@
       "Package": "cachem",
       "Version": "1.1.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "car": {
       "Package": "car",
@@ -430,25 +434,25 @@
       "Package": "checkmate",
       "Version": "2.3.2",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "cli": {
       "Package": "cli",
       "Version": "3.6.3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "clipr": {
       "Package": "clipr",
       "Version": "0.8.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "clock": {
       "Package": "clock",
       "Version": "0.7.1",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "coda": {
       "Package": "coda",
@@ -459,7 +463,7 @@
       "Package": "colorspace",
       "Version": "2.1-1",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "commonmark": {
       "Package": "commonmark",
@@ -480,13 +484,13 @@
       "Package": "cpp11",
       "Version": "0.5.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "crayon": {
       "Package": "crayon",
       "Version": "1.5.3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "crosstalk": {
       "Package": "crosstalk",
@@ -497,13 +501,13 @@
       "Package": "curl",
       "Version": "5.2.3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "d3r": {
       "Package": "d3r",
       "Version": "1.1.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "data.table": {
       "Package": "data.table",
@@ -514,13 +518,13 @@
       "Package": "dbplyr",
       "Version": "2.5.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "digest": {
       "Package": "digest",
       "Version": "0.6.37",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "distributional": {
       "Package": "distributional",
@@ -536,7 +540,7 @@
       "Package": "dplyr",
       "Version": "1.1.4",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "evaluate": {
       "Package": "evaluate",
@@ -547,25 +551,25 @@
       "Package": "fansi",
       "Version": "1.0.6",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "farver": {
       "Package": "farver",
       "Version": "2.1.2",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "fastmap": {
       "Package": "fastmap",
       "Version": "1.2.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "filelock": {
       "Package": "filelock",
       "Version": "1.0.3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "fontawesome": {
       "Package": "fontawesome",
@@ -586,7 +590,7 @@
       "Package": "generics",
       "Version": "0.1.3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "ggdist": {
       "Package": "ggdist",
@@ -597,7 +601,7 @@
       "Package": "ggplot2",
       "Version": "3.5.1",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "ggpubr": {
       "Package": "ggpubr",
@@ -623,19 +627,19 @@
       "Package": "glue",
       "Version": "1.8.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "gridExtra": {
       "Package": "gridExtra",
       "Version": "2.3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "gtable": {
       "Package": "gtable",
       "Version": "0.3.6",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "here": {
       "Package": "here",
@@ -651,7 +655,7 @@
       "Package": "hms",
       "Version": "1.1.3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "htmltools": {
       "Package": "htmltools",
@@ -672,19 +676,19 @@
       "Package": "httr",
       "Version": "1.4.7",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "igraph": {
       "Package": "igraph",
       "Version": "2.1.4",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "isoband": {
       "Package": "isoband",
       "Version": "0.2.7",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "jquerylib": {
       "Package": "jquerylib",
@@ -695,19 +699,19 @@
       "Package": "jsonlite",
       "Version": "1.8.9",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "kableExtra": {
       "Package": "kableExtra",
       "Version": "1.4.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "keyring": {
       "Package": "keyring",
       "Version": "1.3.2",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "knitr": {
       "Package": "knitr",
@@ -718,19 +722,19 @@
       "Package": "labeling",
       "Version": "0.4.3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "later": {
       "Package": "later",
       "Version": "1.3.2",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "lattice": {
       "Package": "lattice",
       "Version": "0.22-6",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "lazyeval": {
       "Package": "lazyeval",
@@ -741,7 +745,7 @@
       "Package": "lifecycle",
       "Version": "1.0.4",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "lme4": {
       "Package": "lme4",
@@ -752,13 +756,13 @@
       "Package": "lubridate",
       "Version": "1.9.3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "magrittr": {
       "Package": "magrittr",
       "Version": "2.0.3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "markdown": {
       "Package": "markdown",
@@ -774,7 +778,7 @@
       "Package": "memoise",
       "Version": "2.0.1",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "memuse": {
       "Package": "memuse",
@@ -800,7 +804,7 @@
       "Package": "mgcv",
       "Version": "1.9-1",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "microbenchmark": {
       "Package": "microbenchmark",
@@ -811,7 +815,7 @@
       "Package": "mime",
       "Version": "0.12",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "minqa": {
       "Package": "minqa",
@@ -827,19 +831,19 @@
       "Package": "munsell",
       "Version": "0.5.1",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "networkD3": {
       "Package": "networkD3",
       "Version": "0.4",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "nlme": {
       "Package": "nlme",
       "Version": "3.1-166",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "nloptr": {
       "Package": "nloptr",
@@ -860,7 +864,7 @@
       "Package": "openssl",
       "Version": "2.2.2",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "openxlsx": {
       "Package": "openxlsx",
@@ -886,19 +890,19 @@
       "Package": "pillar",
       "Version": "1.9.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "pkgconfig": {
       "Package": "pkgconfig",
       "Version": "2.0.3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "plogr": {
       "Package": "plogr",
       "Version": "0.2.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "plotly": {
       "Package": "plotly",
@@ -909,7 +913,7 @@
       "Package": "plyr",
       "Version": "1.8.9",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "png": {
       "Package": "png",
@@ -930,13 +934,13 @@
       "Package": "pool",
       "Version": "1.0.4",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "prettyunits": {
       "Package": "prettyunits",
       "Version": "1.2.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "processx": {
       "Package": "processx",
@@ -947,7 +951,7 @@
       "Package": "progress",
       "Version": "1.2.3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "promises": {
       "Package": "promises",
@@ -963,7 +967,7 @@
       "Package": "purrr",
       "Version": "1.0.2",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "quadprog": {
       "Package": "quadprog",
@@ -990,7 +994,7 @@
       "Package": "rappdirs",
       "Version": "0.3.3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "reactR": {
       "Package": "reactR",
@@ -1006,19 +1010,19 @@
       "Package": "readr",
       "Version": "2.1.5",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "remotes": {
       "Package": "remotes",
       "Version": "2.5.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "renv": {
       "Package": "renv",
       "Version": "1.0.11",
       "OS_type": null,
-      "Repository": "CRAN",
+      "Repository": "P3M",
       "Source": "Repository"
     },
     "reticulate": {
@@ -1030,7 +1034,7 @@
       "Package": "rlang",
       "Version": "1.1.4",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "rmarkdown": {
       "Package": "rmarkdown",
@@ -1061,7 +1065,7 @@
       "Package": "scales",
       "Version": "1.3.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "shiny": {
       "Package": "shiny",
@@ -1092,13 +1096,13 @@
       "Package": "snow",
       "Version": "0.4-4",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "sodium": {
       "Package": "sodium",
       "Version": "1.3.1",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "sourcetools": {
       "Package": "sourcetools",
@@ -1109,67 +1113,67 @@
       "Package": "stringi",
       "Version": "1.8.4",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "CLOUD"
     },
     "stringr": {
       "Package": "stringr",
       "Version": "1.5.1",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "sunburstR": {
       "Package": "sunburstR",
       "Version": "2.1.8",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "survival": {
       "Package": "survival",
       "Version": "3.7-0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "svglite": {
       "Package": "svglite",
       "Version": "2.1.3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "sys": {
       "Package": "sys",
       "Version": "3.4.3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "systemfonts": {
       "Package": "systemfonts",
       "Version": "1.2.1",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "tibble": {
       "Package": "tibble",
       "Version": "3.2.1",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "tidyr": {
       "Package": "tidyr",
       "Version": "1.3.1",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "tidyselect": {
       "Package": "tidyselect",
       "Version": "1.2.1",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "timechange": {
       "Package": "timechange",
       "Version": "0.3.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "tinytex": {
       "Package": "tinytex",
@@ -1185,49 +1189,49 @@
       "Package": "triebeard",
       "Version": "0.4.1",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "tzdb": {
       "Package": "tzdb",
       "Version": "0.4.0",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "urltools": {
       "Package": "urltools",
       "Version": "1.7.3",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "utf8": {
       "Package": "utf8",
       "Version": "1.2.4",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "vctrs": {
       "Package": "vctrs",
       "Version": "0.6.5",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "viridisLite": {
       "Package": "viridisLite",
       "Version": "0.4.2",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "vroom": {
       "Package": "vroom",
       "Version": "1.6.5",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "withr": {
       "Package": "withr",
       "Version": "3.0.2",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "xfun": {
       "Package": "xfun",
@@ -1249,13 +1253,13 @@
       "Package": "yaml",
       "Version": "2.3.10",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     },
     "zip": {
       "Package": "zip",
       "Version": "2.3.1",
       "Source": "Repository",
-      "Repository": "CRAN"
+      "Repository": "P3M"
     }
   }
 }

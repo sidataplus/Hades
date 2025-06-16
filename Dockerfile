@@ -3,7 +3,9 @@ FROM rocker/rstudio:4.4.1
 MAINTAINER Lee Evans <evans@ohdsi.org>
 
 # install OS dependencies including java and python 3
-RUN apt-get update && apt-get install -y openjdk-11-jdk liblzma-dev libbz2-dev libncurses5-dev curl python3-dev python3.venv python3-pip cmake libfontconfig-dev libsodium-dev libxml2-dev libcurl4-openssl-dev \
+RUN apt-get update && apt-get install -y openjdk-11-jdk liblzma-dev libbz2-dev \
+libncurses5-dev curl python3-dev python3.venv python3-pip cmake libfontconfig-dev \
+libsodium-dev libxml2-dev libcurl4-openssl-dev libglpk-dev libsecret-1-dev libdeflate-dev \
 && R CMD javareconf \
 && rm -rf /var/lib/apt/lists/*
 
@@ -12,11 +14,12 @@ COPY strategus_template/renv.lock /home/renv.lock
 WORKDIR /home/
 
 # install OHDSI HADES R packages from CRAN and GitHub, temporarily adding a GitHub Personal Access Token (PAT) to the Renviron file
-RUN --mount=type=secret,id=github_build_pat \
+RUN --mount=type=secret,id=build_github_pat \
 	cp /usr/local/lib/R/etc/Renviron /tmp/Renviron \
-        && echo "GITHUB_PAT=$(cat /run/secrets/github_build_pat)" >> /usr/local/lib/R/etc/Renviron \
+        && echo "GITHUB_PAT=$(cat /run/secrets/build_github_pat)" >> /usr/local/lib/R/etc/Renviron \
         && R -e "install.packages('renv')" \
-		&& R -e "renv::install('curl@5.2.3')" \
+		&& R -e "renv::install('stringi@1.8.4')" \
+		&& R -e "renv::install('openssl@2.2.2')" \
         && R -e "renv::restore(clean = FALSE, prompt = FALSE)" \
 		&& R -e "renv::install('OHDSI/Eunomia')" \
         && cp /tmp/Renviron /usr/local/lib/R/etc/Renviron \
